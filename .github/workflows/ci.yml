@@ -17,3 +17,7 @@ jobs:
       - name: Run unit tests
         run: |
           pytest tests/unit_tests/
+
+      - name: Run integration tests
+        run: |
+          pytest tests/integration_tests/

@@ -19,3 +19,4 @@ pytest-cov==4.0.0
 # Other
 redis==4.3.4
 neo4j==5.8.0
+deepseek-api
