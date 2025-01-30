@@ -5,5 +5,13 @@ class LinkedInAPIWrapper:
         self.api_key = api_key
 
     def extract_data(self, query):
-        # Placeholder API call
-        print(f"Extracting data for query: {query}")
+        """
+        Mock function to simulate LinkedIn API data extraction.
+        Replace with actual API call when credentials are available.
+        """
+        mock_data = [
+            {"name": "John Doe", "company": "StartupX", "title": "CTO"},
+            {"name": "Jane Smith", "company": "TechCorp", "title": "VP of Engineering"}
+        ]
+        print(f"Extracted data for query: {query}")
+        return mock_data
