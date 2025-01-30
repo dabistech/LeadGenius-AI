@@ -1,0 +1,4 @@
+api_keys:
+  linkedin: "your_linkedin_api_key"
+  hunter_io: "your_hunter_io_api_key"
+  sendgrid: "your_sendgrid_api_key"
